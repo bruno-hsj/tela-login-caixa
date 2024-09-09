@@ -1,0 +1,178 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    box-sizing: border-box;
+
+
+
+}
+
+
+
+.corpo{
+
+    background: rgb(68, 81, 255);
+
+    background: linear-gradient(180deg,
+
+    rgb(130, 188, 255)5%,
+
+    rgba(0,73,87,1)100%);
+
+
+
+    /*Transformação das cores retirado do cssgradient:.io
+
+    */
+
+}
+
+
+
+header {
+
+    text-align: left;
+
+    background-color: dodgerblue;
+
+    color: white;
+
+    padding: 2%;
+
+   
+
+}
+
+
+
+.login{
+
+    background-color: whitesmoke;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    overflow: hidden;  
+
+   
+
+    padding: 5%;    
+
+}
+
+
+
+
+.form .titulo{
+
+    color: #757575;
+
+    font-size: 1.5em;
+
+    margin-bottom: 10px;
+
+    padding-bottom: 10px;
+
+    text-align: center;
+
+}
+
+
+
+.form label{
+
+    float: left;
+
+    width: 100%;
+
+    margin-bottom: 25px;
+
+    position: relative;
+
+
+
+}
+
+
+
+.form input{
+
+    font: 15px/24px "Lato", Arial, sans-serif;
+
+    color: #333;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    letter-spacing: 1px;
+
+    border: 1px solid #ccc;
+
+    padding: 7px 14px 9px;
+
+    transition: 0.4s;
+
+}
+
+
+
+.form .button{
+
+    background-color: #39f;
+
+    padding: 0.5em 1.3em;
+
+    color: #fff;
+
+    font-size: 1.2em;
+
+    border: none;
+
+    cursor: pointer;
+
+    width: 40%;
+
+    text-align: center;
+
+}
+
+
+
+footer {
+
+    /*background: rgb(68, 109, 220);
+
+    background: linear-gradient(90deg,
+
+    rgb(39, 89, 226)0%,
+
+    rgb(13, 35, 163)100%);*/
+
+   
+
+    background-color: dodgerblue;
+
+    text-align: left;
+
+    color: white;
+
+    position: absolute; /*Parte de cima define as letras - Parte de baixo define a posição do cabeçalho */
+
+    bottom: 0;
+
+    width: 100%;
+
+    padding: 1%;
+
+}
